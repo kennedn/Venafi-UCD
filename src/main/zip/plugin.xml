@@ -43,7 +43,7 @@
      ]]></post-processing>
     <command program="${GROOVY_HOME}/bin/groovy">
       <arg value="-cp"/>
-      <arg path="classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-3.2.1.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.59.jar:lib/bcpkix-jdk15on-1.59.jar"/>
+      <arg path="classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-20040616.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.70.jar:lib/bcpkix-jdk15on-1.70.jar"/>
       <arg file="classes/authenticationTest.groovy"/>
       <arg file="${PLUGIN_INPUT_PROPS}"/>
       <arg file="${PLUGIN_OUTPUT_PROPS}"/>
@@ -81,7 +81,7 @@
      ]]></post-processing>
     <command program="${GROOVY_HOME}/bin/groovy">
       <arg value="-cp"/>
-      <arg path="classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-3.2.1.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.59.jar:lib/bcpkix-jdk15on-1.59.jar"/>
+      <arg path="classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-20040616.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.70.jar:lib/bcpkix-jdk15on-1.70.jar"/>
       <arg file="classes/getVenafiPolicy.groovy"/>
       <arg file="${PLUGIN_INPUT_PROPS}"/>
       <arg file="${PLUGIN_OUTPUT_PROPS}"/>
@@ -128,7 +128,7 @@
        ]]></post-processing>
       <command program="${GROOVY_HOME}/bin/groovy">
         <arg value="-cp"/>
-        <arg path="classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-3.2.1.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.59.jar:lib/bcpkix-jdk15on-1.59.jar"/>
+        <arg path="classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-20040616.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.70.jar:lib/bcpkix-jdk15on-1.70.jar"/>
         <arg file="classes/requestCertificate.groovy"/>
         <arg file="${PLUGIN_INPUT_PROPS}"/>
         <arg file="${PLUGIN_OUTPUT_PROPS}"/>
@@ -207,7 +207,7 @@
        ]]></post-processing>
       <command program="${GROOVY_HOME}/bin/groovy">
         <arg value="-cp"/>
-        <arg path="classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-3.2.1.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.59.jar:lib/bcpkix-jdk15on-1.59.jar"/>
+        <arg path="classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-20040616.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.70.jar:lib/bcpkix-jdk15on-1.70.jar"/>
         <arg file="classes/requestCertificateWait.groovy"/>
         <arg file="${PLUGIN_INPUT_PROPS}"/>
         <arg file="${PLUGIN_OUTPUT_PROPS}"/>
@@ -251,7 +251,7 @@
      ]]></post-processing>
     <command program="${GROOVY_HOME}/bin/groovy">
       <arg value="-cp"/>
-      <arg path="classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-3.2.1.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.59.jar:lib/bcpkix-jdk15on-1.59.jar"/>
+      <arg path="classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-20040616.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.70.jar:lib/bcpkix-jdk15on-1.70.jar"/>
       <arg file="classes/generateCertificateCSR.groovy"/>
       <arg file="${PLUGIN_INPUT_PROPS}"/>
       <arg file="${PLUGIN_OUTPUT_PROPS}"/>
@@ -304,7 +304,7 @@
      ]]></post-processing>
     <command program="${GROOVY_HOME}/bin/groovy">
       <arg value="-cp"/>
-      <arg path="classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-3.2.1.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.59.jar:lib/bcpkix-jdk15on-1.59.jar"/>
+      <arg path="classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-20040616.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.70.jar:lib/bcpkix-jdk15on-1.70.jar"/>
       <arg file="classes/submitCSRToVenafiServer.groovy"/>
       <arg file="${PLUGIN_INPUT_PROPS}"/>
       <arg file="${PLUGIN_OUTPUT_PROPS}"/>
@@ -345,7 +345,7 @@
      ]]></post-processing>
     <command program="${GROOVY_HOME}/bin/groovy">
       <arg value="-cp"/>
-      <arg path="classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-3.2.1.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.59.jar:lib/bcpkix-jdk15on-1.59.jar"/>
+      <arg path="classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-20040616.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.70.jar:lib/bcpkix-jdk15on-1.70.jar"/>
       <arg file="classes/submitCustomFieldsToVenafiServer.groovy"/>
       <arg file="${PLUGIN_INPUT_PROPS}"/>
       <arg file="${PLUGIN_OUTPUT_PROPS}"/>
@@ -415,7 +415,7 @@
      ]]></post-processing>
     <command program="${GROOVY_HOME}/bin/groovy">
       <arg value="-cp"/>
-      <arg path=".:classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-3.2.1.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.59.jar:lib/bcpkix-jdk15on-1.59.jar"/>
+      <arg path=".:classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-20040616.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.70.jar:lib/bcpkix-jdk15on-1.70.jar"/>
       <arg file="classes/retrieveCertificate.groovy"/>
       <arg file="${PLUGIN_INPUT_PROPS}"/>
       <arg file="${PLUGIN_OUTPUT_PROPS}"/>
@@ -453,7 +453,7 @@
      ]]></post-processing>
     <command program="${GROOVY_HOME}/bin/groovy">
       <arg value="-cp"/>
-      <arg path=".:classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-3.2.1.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.59.jar:lib/bcpkix-jdk15on-1.59.jar"/>
+      <arg path=".:classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-20040616.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.70.jar:lib/bcpkix-jdk15on-1.70.jar"/>
       <arg file="classes/getCertificateStatus.groovy"/>
       <arg file="${PLUGIN_INPUT_PROPS}"/>
       <arg file="${PLUGIN_OUTPUT_PROPS}"/>
@@ -494,7 +494,7 @@
      ]]></post-processing>
     <command program="${GROOVY_HOME}/bin/groovy">
       <arg value="-cp"/>
-      <arg path=".:classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-3.2.1.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.59.jar:lib/bcpkix-jdk15on-1.59.jar"/>
+      <arg path=".:classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-20040616.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.70.jar:lib/bcpkix-jdk15on-1.70.jar"/>
       <arg file="classes/validateRemainingDaysCertificate.groovy"/>
       <arg file="${PLUGIN_INPUT_PROPS}"/>
       <arg file="${PLUGIN_OUTPUT_PROPS}"/>
@@ -547,7 +547,7 @@
      ]]></post-processing>
     <command program="${GROOVY_HOME}/bin/groovy">
       <arg value="-cp"/>
-      <arg path=".:classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-3.2.1.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.59.jar:lib/bcpkix-jdk15on-1.59.jar"/>
+      <arg path=".:classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-20040616.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.70.jar:lib/bcpkix-jdk15on-1.70.jar"/>
       <arg file="classes/revokeCertificate.groovy"/>
       <arg file="${PLUGIN_INPUT_PROPS}"/>
       <arg file="${PLUGIN_OUTPUT_PROPS}"/>
@@ -585,7 +585,7 @@
      ]]></post-processing>
     <command program="${GROOVY_HOME}/bin/groovy">
       <arg value="-cp"/>
-      <arg path=".:classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-3.2.1.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.59.jar:lib/bcpkix-jdk15on-1.59.jar"/>
+      <arg path=".:classes:lib/HttpComponents-Util.jar:lib/jettison-1.1.jar:lib/commons-collections-20040616.jar:lib/commons-beanutils-1.8.0.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.3-jdk15.jar:lib/uDeployRestClient.jar:lib/xml-resolver-1.2.jar:lib/http-builder-0.7.1.jar:lib/bcprov-jdk15on-1.70.jar:lib/bcpkix-jdk15on-1.70.jar"/>
       <arg file="classes/renewCertificate.groovy"/>
       <arg file="${PLUGIN_INPUT_PROPS}"/>
       <arg file="${PLUGIN_OUTPUT_PROPS}"/>
